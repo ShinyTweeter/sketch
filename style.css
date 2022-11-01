@@ -1,0 +1,37 @@
+body
+{
+    background-color: yellow;
+}
+
+h1
+{
+    color: darkblue;
+    background-color: lightcoral;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: turning;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turning 
+{
+    from {box-shadow: 10px 5px 5px rgb(191, 0, 255);}
+    to {box-shadow: 1px 1px 38px rgb(252, 0, 138);}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
